@@ -1,0 +1,23 @@
+/* Style for invalid form controls */
+.is-invalid {
+    border-color: #dc3545 !important;
+  }
+  
+  /* Style for validation error messages */
+  .invalid-feedback {
+    color: #dc3545;
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+  }
+  
+  /* Optional: Add colorful styles for form container */
+  .container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  

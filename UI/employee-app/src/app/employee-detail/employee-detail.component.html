@@ -1,0 +1,19 @@
+<div class="container mt-5">
+  <div *ngIf="employee; else loading" class="card">
+    <div class="card-header">
+      <h2>Employee Details</h2>
+    </div>
+    <div class="card-body">
+      <p><strong>Name:</strong> {{ employee?.name }}</p>
+      <p><strong>Department:</strong> {{ employee?.department }}</p>
+      <p><strong>Salary:</strong> {{ employee?.salary }}</p>
+    </div>
+    <div class="card-footer">
+      <button class="btn btn-primary" (click)="goBack()">Back</button>
+    </div>
+  </div>
+
+  <ng-template #loading>
+    <p>Loading...</p>
+  </ng-template>
+</div>
